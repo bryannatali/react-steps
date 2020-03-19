@@ -1,0 +1,35 @@
+.steps-container {
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #ddd;
+}
+
+.steps-container div.steps-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    height: 20%;
+}
+
+.steps-container div span { 
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: .4;
+}
+
+.steps-container div span.current {
+    background: #568ce3;
+    color: #fff;
+    opacity: 1;
+}

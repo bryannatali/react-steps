@@ -1,0 +1,10 @@
+.step-container {
+    background: red;
+    height: 330px;
+}
+
+.step-container div {
+    
+    margin: 0 auto;
+    
+}
